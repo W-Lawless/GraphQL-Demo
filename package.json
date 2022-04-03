@@ -5,13 +5,15 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon gql-server.js",
     "test": "test"
   },
   "author": "Lawless Sharpe",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "apollo-server": "^3.6.7",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0"
   },
   "devDependencies": {
     "dotenv": "^16.0.0",
